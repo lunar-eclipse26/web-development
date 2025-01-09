@@ -1,0 +1,26 @@
+body {
+    margin:0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:white;
+    font-size:30px;
+    background-size:cover;
+}
+.topnav {
+    color: rebeccapurple;
+}
+.topnav a {
+    float:left;
+    color:red;
+    text-align:center;
+    padding:14px 16px;
+    text-decoration:none;
+    font-size:28px;
+}
+.topnav a:hover {
+    background-color:white;
+    font size:36px;
+}
+.topnav a.active {
+    background-color:yellow;
+    color:black;
+}
