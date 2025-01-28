@@ -23,26 +23,14 @@
             <img class="mymenu" src="fresh baked cookies.jpg" style="height:500px; width:100%;">
             <img class="mymenu" src="OIP (3).jpg" style="height:500px; width:100%;">
         </div>
+        <h1>some of our favorites</h1>
+        <div class="carousel-container">
+            <img class="myslides" src="prishnus bday cake.jpg" height="300px" width="300px" alt="slide 2">
+            <img class="myslides" src="DA FUNNY ONE.jpg" height="300px" width="300px" alt="slide 3">
+            <img class="myslides" src="BREAD.jpg" height="300px" width="300px" alt="slide 1">
+        </div>
+        <script src="script.js">
 
-        <script>
-            var myindex = 0;
-            carousel();
-            function carousel()
-            {
-            var i;
-            var x = document.getElementsByClassName("mymenu");
-            for (i = 0; i < x.length; i++)
-            {
-                x[i].style.display="none";
-            }
-            myindex++;
-            if (myindex < x.length)
-            {
-                myindex = 1
-            }
-            x[myindex-1].style.display = "block";
-            setTimeout(carousel, 5000);
-            }
         </script>
         <div class="footer">
             <p>@copy all rights and reserved by artisanbakesbyshavi</p>

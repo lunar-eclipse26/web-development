@@ -53,3 +53,23 @@ p{
     color:white;
     text-align:center;
 }
+
+body {
+    background-color:#deb878;
+}
+h1 {
+    text-align:center;
+    text-decoration:underline;
+    text-transform:capitalize;
+}
+.carousel-container {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:300px;
+}
+.myslides {
+    display:none;
+    max-height:100px;
+    max-width:100px;
+}
